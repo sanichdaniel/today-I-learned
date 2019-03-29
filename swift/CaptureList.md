@@ -21,7 +21,7 @@ let closure = { [weak self, unowned krakenInstance] in
 }
 ~~~
 
-unowned도 weak랑 동작이 거의 똑같다. 딱 하나 차이가 있는데 그것은, unowned는 optional이 아니다. Unowned는 초기화된후 절대 nil이 되지 않을것을 보장 할 수 있을때 쓰는것이다. ( ! 와 비슷하다 )
+unowned도 weak랑 동작이 거의 똑같다. 딱 하나 차이가 있는데 그것은, unowned는 optional이 아니다. Unowned는 초기화된후 절대 nil이 되지 않을것을 보장 할 수 있을때 쓰는것이다. ( ! 와 비슷하다 ) Closure같은 경우 unowned reference를 갖게될때 둘의 할당해제 시점이 같을때만 쓰인다. 
 
 ~~~swift
 class RetainCycle {
