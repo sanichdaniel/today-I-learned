@@ -84,7 +84,7 @@ customer는 creditcard를 가질수도있고 안가질수도 있지만, creditca
 creditcard 인스턴스의 customer는 unowned referecne로 customer인스턴스를 참조한다. 
 
 ![unowned](/swift/img/unowned2.png)
-여기서 john = nil이 라하면 customer를 참조하는게 없으니 customer인스턴스가 메모리 해제 되고 순차적으로 creditCard가 메모리 해제된다.  
+여기서 john = nil이 라하면 customer를 참조하는게 없으니 customer인스턴스가 메모리 해제 된다. creditcard인스턴스를 유일하게 참조하고 있던 customer가 사라지니 ARC에 의해 순차적으로 creditCard가 메모리 해제된다.  
 
 
 클로져에서 강한 순환 참조
