@@ -10,11 +10,11 @@ virtual table은 자신의 class 내부에 있는 method들에 대한 함수포�
 
 Static Dispatch
 ---
-컴파일 타임에 어떤 메소드를 실행할지 결정할 수 있다.
+*컴파일 타임*에 어떤 메소드를 실행할지 결정할 수 있다.
 
 Dynamic Dispatch
 ---
-런타임에 virtual method table을 조회에서 어떤 method를 실행할지 결정한다.  
+*런타임*에 virtual method table을 조회에서 어떤 method를 실행할지 결정한다.  
 이것은 static dispatch보다 많은 오버헤드를 필요로 한다.
 
 Method Disptach
