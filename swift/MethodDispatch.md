@@ -82,3 +82,6 @@ proto.extensionMethod()에서 "In Struct"가 불릴꺼 같지만 "In Protocol"�
 참고할만한 링크
 https://medium.com/@leandromperez/protocol-extensions-gotcha-9ef1a42c83b6
 
+더 추가해야할 내용
+https://zeddios.tistory.com/597?category=685736
+
