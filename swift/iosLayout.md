@@ -38,7 +38,7 @@ Automatic refresh triggers
 * 유저의 기기 회전
 * 뷰의 constraint 업데이트  
 
-이것들 이외에도 layoutSubviews를 직접적으로 호출하는 방식들이 있다.
+이것들 이외에도 layoutSubviews의 호출을 유도하는 방식들이 있다.
 
 ###  setNeedsLayout()
 
@@ -47,7 +47,7 @@ Automatic refresh triggers
 ### layoutIfNeeded()
 layoutIfNeeded를 호출하면 시스템은 뷰가 레이아웃 업데이트가 필요하다면 즉시 layoutSubviews를 호출해준다. 만약 setNeedsLayout을 호출한 직후나, automatic refresh trigger가 일어난 직후 layoutIfNeeded를 호출해준다면, layoutSubviews가 해당 뷰에 호출이될것이다. 하지만 layoutIfNeeded가 호출되더라도 시스템에게 변화가 있다는 액션을 알리지 않으면 호출이된다.  
   
-이 메소드는 즉시 레이아웃을 실행하지만, 즉시 뷰의 업데이트를 봐야할 상황이 아니라면 setNeedsLayout를 호출해줘서 다음 update cycle해서 모든 뷰의 레이아웃 업데이트를 이 업데이트 주기로 통합해서 동시에 업데이트 되도록 처리하는게 바람직하다. 
+이 메소드는 즉시 레이아웃을 실행한다. 하지만 즉시 뷰를 업데이트 해야할 상황이 아니라면 setNeedsLayout를 호출해줘서, 다음 update cycle해서 모든 뷰의 레이아웃 업데이트를 통합해서 처리하는게 바람직하다. 
   
   layoutIfNeeded는 애니메이션에서  constraint을 바꿔줄때 유용하다
 
