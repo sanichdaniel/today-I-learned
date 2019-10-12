@@ -10,11 +10,13 @@ open var bounds: CGRect
 
 둘다 CGRect 타입이다
 
-* Frame:   
+* Frame:
 SuperView(한단계 상위)의 좌표계 안에서 View의 위치와 크기를 나타낸다
 
 * Bounds:
 자신의 좌표계에서 View의 위치와 크기를 나타낸다.
+
+
 
 상위뷰 A 와 하위뷰 B가 있다고 했을때
 
