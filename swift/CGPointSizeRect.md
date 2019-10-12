@@ -19,7 +19,7 @@ public struct CGSize {
 
 **CGRect**: 사각형의 위치와 크기를 가지는 구조체
 ~~~swift
-public struct CGSize {
+public struct CGRect {
     public var origin: CGPoint
     public var size: CGSize
 }
