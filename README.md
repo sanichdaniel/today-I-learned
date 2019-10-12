@@ -1,4 +1,6 @@
 # today-I-learned
 What I learned
 
-hello
+TODO:
+Cocoapod 동작 원리
+
