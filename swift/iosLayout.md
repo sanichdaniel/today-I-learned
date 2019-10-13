@@ -5,9 +5,11 @@ http://tech.gc.com/demystifying-ios-layout  의 번역
 
 iOS의 Main run loop
 -
-main run loop는 유저의 인풋 이벤트와 이에 맞는 적절한 반응을 처리해줍니다. 모든 유저 상호작용은 event queue안에 들어갑니다. Application 객체는 이벤트 큐에서 이벤트를 받아와서 다른 객체들에게 전달합니다. Application Object는 유저 인풋을 받아서 적절한 handler를 호출하면서 run loop를 실행 시킵니다. 이 handler는 개발자가 작성한 handler입니다. 이 함수들이 리턴되면 다시 main run loop에게 제어권이 돌아가고 update cycle이 시작됩니다. Update cycle은 view를 layout, redraw 하는것을 담당합니다. 
+main run loop는 유저의 인풋 이벤트( touch, text input)와 이에 맞는 적절한 반응을 처리해줍니다. 모든 유저 상호작용은 event queue안에 들어갑니다. Application 객체는 이벤트 큐에서 이벤트를 받아와서 다른 객체들에게 전달합니다. Application Object는 유저 인풋을 받아서 적절한 handler를 호출하면서 run loop를 실행 시킵니다. 이 handler는 개발자가 작성한 handler입니다. 이 함수들이 리턴되면 다시 main run loop에게 제어권이 돌아가고 update cycle이 시작됩니다. Update cycle은 view를 layout, redraw 하는것을 담당합니다. 
 
-![weak](/swift/img/mainEventLoop.png)
+main run loop는 앱의 main thread를 실행한다. 
+
+![weak](/swift/img/mainRunloop.png)
 
 Update Cycle
 -
