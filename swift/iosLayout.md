@@ -1,6 +1,6 @@
 Demystifying iOS Layout
 =
-http://tech.gc.com/demystifying-ios-layout/의 번역
+http://tech.gc.com/demystifying-ios-layout  의 번역
 
 
 iOS의 Main run loop
@@ -11,7 +11,7 @@ main run loop는 유저의 인풋 이벤트와 이에 맞는 적절한 반응을
 
 Update Cycle
 -
-update cycle 은 앱이 이벤트 다루는 코드를 처리하고, main run loop에게 제어권이 돌아올때 시작됩니다. 이떄 layout, display, constraint들을 업데이트 하기 시작합니다. 만약 이벤트 handler를 다루던중 view를 다시 그려야 한다고 요청한다면, 시스템은 view가 redraw가 필요하다고 체크해 놓는다. iOS는 60fps, 1/60초 마다 새로 고침을 합니다. 이것은 유저가 변화를 느끼기에는 매우 짧은 시간이지만, event가 처리되고 실제로 해당하는 뷰가 다시 그려지는데는 시간 간격이 있음으로 실행 루프 중 원하는 시점에서 뷰가 업데이트 되지 않을 수 있다. 
+update cycle 은 앱이 이벤트 다루는 코드를 처리하고, main run loop에게 제어권이 돌아올때 시작됩니다. 이떄 layout, display, constraint들을 업데이트 하기 시작합니다. 만약 이벤트 handler를 다루던중 view를 다시 그려야 한다고 요청한다면, 시스템은 view가 redraw가 필요하다고 체크해 놓는다. iOS는 60fps, 1/60초 마다 새로 고침을 합니다. 이것은 유저가 변화를 느끼기에는 매우 짧은 시간이지만, event가 처리되는데 걸리는 시간과 실제로 해당 뷰가 다시 그려지는데는 시간 간격이 생긴다. 따라서 실행 루프 중 원하는 시점에서 뷰가 업데이트 되지 않을 수 있다. 
 
 업데이트 cycle은 아래 사진처럼 run loop에게 제어가 돌아오면 일어난다. 
 
