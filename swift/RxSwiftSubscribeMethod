@@ -1,0 +1,7 @@
+RxSwift를 이용한 method 호출 구독하기
+===
+
+~~~swift
+public func sentMessage(_ selector: Selector) -> Observable<[Any]> 
+public func methodInvoked(_ selector: Selector) -> Observable<[Any]>
+~~~
