@@ -10,3 +10,5 @@ POP는 필요한 부분만 프로토콜로 분리가능하다. 다중 프로토�
 또한 프로토콜 규칙을 class, struct, enum에도 적용할 수 있다.
 
 필요한 기능들을 분리하여 Protocol Extension을 만들수있다. 
+
+(swift는 protocol 의 extension에서 기능을 구현해놓을수있다)
