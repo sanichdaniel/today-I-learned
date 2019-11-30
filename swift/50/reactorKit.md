@@ -12,5 +12,3 @@ Reactor Kit
 리액터에서는 액션 스트림을 mutation 스트림으로 바꿔준다. 네트워크통신이나, 비동기로직 실행
 
 reduce에서 mutation에 따라 state바꿔줌.
-
-ReactorKit의 장점
