@@ -12,11 +12,13 @@ reference type들이 서로를 참조해서, reference count가 0이 안되고, 
 강한 순환 참조가 발생하는 상황
 ---
 
-* closure에서 self
+각 인스턴스가 서로 다른 인스턴스를 참조하는 경우 발생. 
+
+* closure에서 self를 캡쳐할때
 * delegate
 
 강한 순환 참조를 해결하는 방법
 ---
-* weak, unowed 키워드
-weak하게 참조되면 reference count를 증가시키지 않는다.
+* weak, unowed 참조.
+weak, unowned하게 참조되면 reference count를 증가시키지 않는다.
 키워드로 weak, unowned가 있다. weak 프로퍼티는 옵셔널이다. weak는 할당해제시 nil이 됨. unowned는 nil이 되면 안되고 unowned가 참조하는 객체가 메모리 해제 되지 않은 인스턴스를 참조할떄만 사용해야 한다. 사용자, 신용카드 예제
