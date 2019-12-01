@@ -3,6 +3,8 @@ ARC
 
 Automatic Reference Count는 ios에서 메모리를 관리하는 방식이다. 프로퍼티, 상수, 변수에 레퍼런스가 지정되면 reference count를 증가시킨다. reference count를 세면서, 0이 되기전까지는 메모리에 유지시켜주고, reference count가 0이되면 메모리 해제.
 
+compile time에 retain, release 코드를 넣어두고, 런타임에 reference count를 계속 측정한다. 
+
 Strong Reference Cycle
 ---
 reference type들이 서로를 참조해서, reference count가 0이 안되고, 메모리 에서 살아있는 상황.

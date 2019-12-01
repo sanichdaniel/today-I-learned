@@ -23,12 +23,13 @@ Concurrent Queue
  Dispatch Queue를 사용하면 쓰레드 생성 및 관리에 대해 신경을 안써도 된다. 
 
 
-A *Synchronous* function returns control to the caller after the task is completed.
-An *asynchronous* function returns immediately, ordering the task to be done but not waiting for it. Thus, an asynchronous function does not block the current thread of execution from proceeding on to the next function.
+* Sync: caller은 작업을 끝날때까지 return 을 안한다.  
 
-Concurrency is the notion of multiple tasks running at the same time.
+* async:  sync와는 달리 작업을 전달하자마자 return한다. 즉, caller는 async를 호출한 뒤에, 다음작업을 바로 수행한다.
 
-GCD is built on top of threads. Under the hood it manages a shared thread pool. GCD can improve your app’s responsiveness by helping you defer computationally expensive tasks and run them in the background.
+* concurrency: 동시에 여러개의 task를 수행
+
+* GCD는 쓰레드들 위에 지어져있다. GCD는 비싼 task들을 백그라운드나 다른 쓰레드에서 실행하게 함으로서 앱의 반응성을 높인다.
 
 ios에서 멀티 쓰레딩: 
 
