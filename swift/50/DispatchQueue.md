@@ -23,9 +23,9 @@ Concurrent Queue
  Dispatch Queue를 사용하면 쓰레드 생성 및 관리에 대해 신경을 안써도 된다. 
 
 
-* Sync: caller은 작업을 끝날때까지 return 을 안한다.  
+* Sync: 작업을 끝날때까지 caller에게 return 을 안한다.  
 
-* async:  sync와는 달리 작업을 전달하자마자 return한다. 즉, caller는 async를 호출한 뒤에, 다음작업을 바로 수행한다.
+* async: sync와는 달리 작업을 전달하자마자 return하고 다음 작업을 실행한다.
 
 * concurrency: 동시에 여러개의 task를 수행
 
