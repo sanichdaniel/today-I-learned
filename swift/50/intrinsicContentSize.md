@@ -6,3 +6,5 @@ Intrinsic Content Size
 UILabel 인 경우에는 텍스와 폰트로 결정된다. ImageView 는 이미지의 크기로 결정된다.
 
 UIView 같은 경우에는 Intrinsic Content Size가 없는데, 이 프로퍼티를 오버라이드하여 임의로 크기를 줄 수 있다.
+
+UIView는 그래서 상하좌우로 constraint를 주는것 뿐만 아니라 width, height도 주어야 autolayout이 잡힌다.

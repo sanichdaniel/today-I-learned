@@ -1,4 +1,4 @@
-Leading Left
+Leading과 Left차이
 ===
 Left, Right는 말 그대로 물리적으로 왼쪽 오른쪽을 말한다.
 
