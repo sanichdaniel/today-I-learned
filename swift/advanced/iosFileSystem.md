@@ -5,6 +5,11 @@ iOS File System
 
 ios앱의 파일시스템은 앱의 샌드박스 디렉토리에 한정되어있다.
 
+* Sandbox  
+커널 수준에서 실행되는 접근 제어 기술  
+sandbox화 되어있지 않다면, 공격자는 사용자가 접근할 수 있는 모든 리소스에 접근가능하다. 
+
+
 ![unowned](/swift/img/iosSandbox.png)
 
 1) Bundle Container  
@@ -26,7 +31,8 @@ Documents
 
 Library
 ---
-사용자의 파일을 제외한 파일들이 저장되고 그들의 최상위 디렉토리입. UserDefaults, Preferecnes등
+사용자의 파일을 제외한 파일들이 저장되고 그들의 최상위 디렉토리 UserDefaults, Preferecnes등
+앱의 동작 속도/데이터 절약 등을 위해 사용되는 캐시
 
 Tmp
 ---
