@@ -44,9 +44,11 @@ Traditional Dependency
 일반적인 경우에는 Sender class가 상위 모듈이고 Specific Receiver가 하위 모듈이다.  
 전통적으로는 Sender 클래스가 Sepcific Receiver 인스턴스를 만들고, Specific Receiver의 함수를 호출한다. 
 
+즉 상위 모듈 Sender가 하위 모듈 SpecificReceiver에 의존한다. 
+
 Dependecny Inversion
 ---
-![unowned](/swift/img/inversion1.png)
+![unowned](/swift/img/inversion1.png)  
 Receiver라는 SpecificReceiver의 프로토콜을 정의한다. 이제 Sender class과 SpecificReceiver 둘다 Receiver 프로토콜이라는 추상화에 의존하게 된다. 
 
 이제 SpecificReceiver class는 Receiver 프로토콜을 따르는 다른 class에 의해 대체 될 수 있다.
