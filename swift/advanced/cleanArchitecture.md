@@ -24,11 +24,13 @@ Clean Architecture
 ---
 좋은 아키텍쳐는 비지니스 로직(UseCase)에 집중해야한다. 
 
-Layer 들을 분리시켜서 결합도가 낮아지고, 코드를 쉽게 바꿀수 있다.
+Layer 들을 분리시켜서 코드를 쉽게 바꿀수 있다.
 
-테스트가 쉬워진다
+테스트가 쉬워진다.
+
+코드 재사용성이 올라간다.
  
-![unowned](/swift/img/iosArchitecture.png)
+![unowned](/swift/img/iosArchitecture.png)  
 Clean Architecture 그래프에 따르면 안쪽 레이어는 바깥쪽 레이어에 대해 의존성을 가지면 안된다. 즉 바깥에서만 안에 내용을 알 수 있는것.
 
 ### Domain Layer  
