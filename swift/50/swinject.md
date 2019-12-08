@@ -19,3 +19,5 @@ Swinject
 DI는 Inversion of Control (객체의 생성 권한을 다른 대상에게 넘기는것) 구현하는것중 하나이다. 
 
 Swinject 컨테이너에 타입을 등록해놓으면 구현체를 리턴해준다.
+
+https://medium.com/flawless-app-stories/ios-dependency-injection-using-swinject-9c4ceff99e41
