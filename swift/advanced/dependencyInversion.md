@@ -1,6 +1,11 @@
 Dependency Inversion in Swift
 ===
 
+정의
+---
+1) 상위 모듈은 하위 모듈에 의존 하되, 둘다 추상에 의존해야 한다.
+2) 추상은 세부에 의존하면 안되고, 세부가 추상에 의존해야한다. 
+
 > http://blog.cleancoder.com/uncle-bob/2016/01/04/ALittleArchitecture.html  
 https://clean-swift.com/dependency-inversion-a-little-swifty-architecture/  
 > 2개의 글을 정리
