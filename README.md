@@ -1,2 +1,3 @@
 # today-I-learned
-What I learned
+
+Covering mostly **swift** and  **machine learning**, **spring**
