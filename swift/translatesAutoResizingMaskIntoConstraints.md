@@ -1,7 +1,6 @@
 translatesAutoResizingMaskIntoConstraints
 ===
 
-Auto Layout 개념을 잠깐 짚고 넘어가자
 Auto Layout: 뷰들간의 관계로 뷰의 위치와 크기를 자동으로 결정하는 시스템, 관계는 constraint로 준다
 
 translatesAutoResizingMaskIntoConstraints
