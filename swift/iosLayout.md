@@ -1,6 +1,6 @@
 Demystifying iOS Layout
 =
-http://tech.gc.com/demystifying-ios-layout  의 번역
+http://tech.gc.com/demystifying-ios-layout  의 번역하기
 
 
 iOS의 Main run loop
