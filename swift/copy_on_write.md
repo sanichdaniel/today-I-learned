@@ -12,3 +12,7 @@ Copy on Write는 struct을 복사할때 퍼포먼스를 증가시키는 방법�
 2개의 어레이들은 같은 데이터를 가리키고있다. 언제까지? 두번째 어레이의 값이 변하기 전까지
 
 즉 값이 바뀔때 복사를 하는것을 Copy on write라고 한다.
+
+지원되는 곳
+---
+String, Collection Types( array, set, dictionary )
