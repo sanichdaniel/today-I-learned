@@ -9,7 +9,7 @@ root또는 임의의 node에서 다른 브랜치로 넘어가기전에 해당 �
 
 BFS
 ---
-root node혹은 임의의 node에서 인접한 노드를 먼저 탐색
+root node혹은 임의의 node에서 인접한 노드를 먼저 탐색 
 
 **Queue**를 이용
 
