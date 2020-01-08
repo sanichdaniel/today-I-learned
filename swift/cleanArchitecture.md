@@ -1,6 +1,8 @@
 Clean Architecture
 ===
 
+앱이 레이어로 구분지어져 있다. 안쪽 레이어는 바깥쪽 레이어를 몰라야한다
+
 Solid Principle
 ---
 
