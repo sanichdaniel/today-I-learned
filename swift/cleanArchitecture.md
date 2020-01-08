@@ -35,6 +35,7 @@ Clean Architecture 그래프에 따르면 안쪽 레이어는 바깥쪽 레이�
 
 ### Domain Layer  
 >가장 안쪽의 다른 레이어들과는 독립적인 레이어. 비지니스로직, Entities, Use Cases, and Repository Interfaces를 가진다. 
+UseCase는 비지니스 로직인데, 앱에서는 유저가 보낸 데이터로 리포지토리에 데이터를 요청하고 이걸 다시 뷰모델에 전달한다 
 ### Presentation Layer
 >UI(UIViewController, SwiftUI, ViewModel)를 가진다. Domain Layer에만 종속된다.
 ### Data Layer  
