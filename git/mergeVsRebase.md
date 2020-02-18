@@ -7,13 +7,13 @@ Merge
 
 > 현재 내가 합치려고 하는 브랜치가 master 브랜치라 가정한다
 
-1) Fast-forward
+ ## 1) Fast-forward
 
 브랸치 분기후, master 브랜치가 **변경되지 않았을때** 
 
 master 브랜치의 팁을 분기한 브랜치의 팁으로 옯긴다.
 
-2) 3-way merge
+ ## 2) 3-way merge
 
 브랜치 분기후 'master' 브랜치에 **변경 되었을때**
 
