@@ -28,7 +28,9 @@ git은 각 브랜치의 tip의 커밋의 공통 부모 커밋을 찾는다. 그�
 Rebase
 ---
 
-> base가 되는 커밋을 새로 잡아줘서 fast-forward merge를 하게 해주어 불필요한 머지 커밋을 안남긴다. interactive mode로 과거의 히스토리까지 조작가능.
+ base가 되는 커밋을 새로 잡아주고, 새로운 base에서 커밋들을 연결시켜준다. 그래서 fast-forward merge를 하게 해주어 불필요한 머지 커밋을 안남긴다. 
+
+interactive mode로 **과거의 히스토리**까지 **조작가능**
 
 
 ![unowned](/git/img/rebase.png)  
