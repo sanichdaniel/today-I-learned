@@ -1,3 +1,6 @@
 # today-I-learned
 
-Covering mostly **swift** and  **machine learning**, **spring**
+> Todo...
+1. webRtc
+2. quick, nimble, rxswift Test
+3. Dependency Injection & build time
