@@ -3,6 +3,25 @@ Clean Architecture
 
 앱이 레이어로 구분지어져 있다. 안쪽 레이어는 바깥쪽 레이어를 몰라야한다
 
+소프트웨어를 계층(layer)로 나눠서 관심사를 분리함.  
+
+ 
+이렇게만 하면 어떤 소프트웨어가 만들어지냐면
+
+1. Independent of Frameworks. 아키텍쳐는 소프트웨어 라이브러리의 존재에 의존하지 않음.
+
+2. Testable. 비즈니스 로직은 UI, DB, 웹 서버 또는 기타 외부 요소 없이 테스트 할 수 있음.
+
+3. Independent of UI. UI는 시스템을 변경하지 않고도 쉽게 변경 가능. (ex. 비즈니스 로직을 바꾸지 않고 웹 UI를 콘솔 UI로 변경가능.)
+
+4. Independent of Database. 비즈니스 로직이 DB에 바인딩 되지 않음. 
+
+5. Independent of any external agency. 비즈니스 로직은 외부 세계;;(outside world에 대해 전혀 알지 못함
+
+
+
+출처: https://zeddios.tistory.com/1065 [ZeddiOS]
+
 Solid Principle
 ---
 
